@@ -1,0 +1,31 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+  background: {
+    image: url("./assets/gradient-light-bg.png");
+    position: center;
+    repeat: no-repeat;
+    size: cover;
+  }
+}
+
+.darkTheme {
+  // background-color: rgb(46, 46, 46);
+  position: center;
+  color: white;
+}
+
+.lightTheme {
+  // background-color: white;
+  color: rgb(46, 46, 46);
+}
+
+.compLogo {
+  content: contain;
+  width: 60%;
+}

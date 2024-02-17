@@ -1,0 +1,95 @@
+#root {
+  background-color: transparent;
+}
+
+.bigTitle {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+}
+
+.compLogo {
+  display: flex;
+  background-color: white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  align-items: center;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
+.lightTheme {
+  .statCard {
+    background-color: rgba(203, 203, 203, 0.512);
+    backdrop-filter: blur(13px);
+    border: 1px solid rgba(255, 255, 255, 0.509);
+  }
+
+  .stockTitle {
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-size: 0.8rem;
+  }
+
+  .stockCode {
+    color: rgb(217, 217, 217);
+    font-size: small;
+    font-size: 0.7rem;
+  }
+
+  .stockTitleL {
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-size: 1.1rem;
+  }
+
+  .stockCodeL {
+    color: rgb(217, 217, 217);
+    font-size: small;
+    font-size: 1rem;
+  }
+
+  .gridDivider {
+    border-color: rgba(255, 255, 255, 0.265);
+    height: 80%;
+  }
+
+  .valuePointChange {
+    font-weight: bold;
+    color: #95ff9f;
+  }
+}
+
+.darkTheme {
+  .statCard {
+    background-color: rgb(62, 62, 62);
+    backdrop-filter: blur(13px);
+    border: 1px solid rgba(115, 115, 115, 0.509);
+  }
+
+  .stockTitle {
+    color: rgb(217, 217, 217);
+    font-size: medium;
+    font-size: 0.8rem;
+  }
+
+  .stockCode {
+    color: rgb(132, 132, 132);
+    font-size: small;
+    font-size: 0.7rem;
+  }
+
+  .gridDivider {
+    border-color: rgb(62, 62, 62);
+    height: 80%;
+  }
+
+  .valuePointChange {
+    font-weight: bold;
+    color: #95ff9f;
+  }
+}
